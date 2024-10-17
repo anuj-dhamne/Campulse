@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="Images\uni-logo.png">
+  <title>CAMPULSE</title>
+  <!--  -->
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!--<div class="scroll-box"></div>-->
+
+ <!----------------------------------    navbar           -------------->
+
+  <div class="navbar">
+    <div class="logo">
+      <img src="./Images/uni-logo.png" alt="CampPulse Logo">
+    </div>
+    <div class="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#event_heading">Opportunities</a>
+        <li><a href="#lost">Lost & Found</a></li>
+        <li><a href="./Notes  Web pages/notes.html">Notes</a></li>
+        <li><a href="#about">About</a></li>
+        <!-- <li><a href="#">Contact Us</a></li> -->
+      </ul>
+    </div>
+  </div>
+
+  <!------------  Slider for event advertisement  --------------------->
+
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="4000">
+        <a href="./Each Event/crypto.html" target="_main"><img class="pics" src="./Images/crypto_slider.jpg" class="d-block" height="600px" alt="..."></a>
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+       <a href="./Each Event/genesis.html" target="_main"> <img class="pics" src="./Images/genesis_slider.jpg" class="d-block" height="600px" alt="..."></a>
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <a href="./Each Event/scope_mibcs.html" target="_main"> <img class="pics" src="./Images/scope_slider.jpg" class="d-block" height="600px" alt="..."></a>
+       
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <a href="./Each Event/book.html" target="_main"><img class="pics" src="./Images/book_slider.jpg" class="d-block" height="600px" alt="..."></a>
+        
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!--------------------- Oppurtinites --------------->
+
+  <div class="tab_heading" id="event_heading" data-aos="fade-up"
+  data-aos-anchor-placement="top-bottom"> Events</div>
+
+  <div style="display: inline-flex; " class="ad"  id="Opportunities" data-aos="fade-up">
+
+    <div class="card" data-aos="fade-right">
+      <img src="./Images/cryptocurrency_cards.jpeg" class="card-img">
+      <div class="card-body">
+        <p class="card-text">🗓️ Date: 18th Oct 2024 <br>
+          🕑 Event Timing: 1 PM to 3 PM <br>
+          📍 Venue: JVN Hall, 4th floor, Computer Dept. <br><br>
+          <a href="./Each Event/crypto.html">
+            <button class="register-button">Register</button>
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <div class="card" data-aos="fade-up">
+      <img src="./Images/cybercon_cards.jpeg" class="card-img">
+      <div class="card-body">
+        <p class="card-text">🗓️ Date: 18th Oct 2024 <br>
+          🕑 Event Timing: 1 PM to 3 PM <br>
+          📍 Venue: JVN Hall, 4th floor, Computer Dept. <br><br>
+          <a href="./Each Event/cybercon_csi.html">
+            <button class="register-button">Register</button>
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <div class="card" data-aos="fade-left">
+      <img src="./Images/music_cards.jpeg" class="card-img">
+      <div class="card-body">
+        <p class="card-text">🗓️ Date: 17th Oct 2024 <br>
+          🕑 Event Timing: 10 AM to 5 PM <br>
+          📍 Venue: Robotics Seminar Hall, 3rd Floor <br><br>
+          <a href="#">
+            <button class="register-button">Register</button>
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <div class="card" data-aos="fade-right">
+      <img src="./Images/Genesis_card.png" class="card-img">
+      <div class="card-body">
+        <p class="card-text">🗓️ Date: 18th Oct 2024 <br>
+          🕑 Event Timing: 1 PM to 3 PM <br>
+          📍 Venue: JVN Hall, 4th floor, Computer Dept. <br><br>
+          <a href="./Each Event/genesis.html">
+            <button class="register-button">Register</button>
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <div class="card" data-aos="fade-up" >
+      <img src="./Images/book_card.png" class="card-img">
+      <div class="card-body">
+        <p class="card-text">🗓️ Date: 18th Oct 2024 <br>
+          🕑 Event Timing: 1 PM to 3 PM <br>
+          📍 Venue: JVN Hall, 4th floor, Computer Dept. <br><br>
+          <a href="./Each Event/book.html">
+            <button class="register-button">Register</button>
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <div class="card" data-aos="fade-left">
+      <img src="./Images/Scope_card.png" class="card-img">
+      <div class="card-body">
+        <p class="card-text">
+          🗓️ Date: 17th Oct 2024 <br>
+          🕑 Event Timing: 10 AM to 5 PM <br>
+          📍 Venue: Robotics Seminar Hall, 3rd Floor <br><br>
+          <a href="./Each Event/scope_mibcs.html">
+            <button class="register-button">Register</button>
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+ 
+  <div id="more_event">
+    <a href="more.html" >more...
+    </a>
+  </div>
+
+  <!-- --------------- Lost and Found ------------------ -->
+  <div class="tab_heading" id="lost" data-aos="fade-up"
+  data-aos-anchor-placement="top-bottom">Lost & Found</div>
+
+  <div class="lostFound">
+    
+    <div id="disMsg">
+      <p id="emoji">🫠</p>
+      <p>All’s quiet on the lost and found front! <br>If you've come across something or misplaced an item, help us bring things back where they belong—be the first to report!</p></div>
+
+    <div class="report"><a href="#"><button id="report-btn">Report</button></a></div>
+  </div>
+
+  <!-- ------- About Us ---------- -->
+
+  <div class="tab_heading" id="about_us" data-aos="fade-up"
+  data-aos-anchor-placement="top-bottom">About Us</div>
+
+  <div class="about" id="about">
+    <h1>🌐Mission</h1>
+    <p>Our mission is to create a virtual notice board 📋 that will enable our users to have a perfect campus life 🏫 <br>
+      by striking a balance ⚖️ between academics 📚 and extracurricular activities 🎭. <br>
+
+      Our platform will not only unify students of the same branches 🌿 but will also bring together all students,
+      regardless of their course or year of study 🎓. We aim to foster a sense of connectivity 🤝 among students from
+      all branches. <br>
+
+      Campulse will revolutionize 🔄 the interconnections between <a target="_main" href="./about.html"> more...</a></p>
+  </div>
+
+  <!--  Contact us  -->
+      <div class="contact" data-aos="fade-up">
+        <div class="contact_head">Conatact Us :</div>
+        <div class="info" data-aos="fade-up">
+          <p>
+            Email : campulse@example.com <br>
+            Mobile No. : XXXXX X6969 <br>
+            Address : Office No. 420 , Nashik , Maharashtra 
+          </p>
+
+        </div>
+        <div class="icons"><i class="fa-brands fa-x-twitter"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-linkedin"></i></div>
+
+        <div class="copyright">
+          <p>Copyright<i class="fa-regular fa-copyright"></i>2024-2024 Campulse.com</p>
+        </div>
+      </div>
+
+
+
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script> AOS.init();</script>
+</html>

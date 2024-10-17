@@ -1,0 +1,67 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #CED4DA;
+  }
+  .tab_heading{
+    width: 100%;
+    /* height: 20%; */
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    /* color: #212529; */
+    background-color: #6c757d;
+    color: black;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+  .container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    /* background-color: #f8f9fa; */
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  #draft-message {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  #draft-message h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  #draft-message p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+
+  .list {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    #flyer, #draft-message {
+      max-width: 100%;
+    }
+  }
+  

@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    /*overflow: hidden;
+    overflow: scroll; /* Show scrollbars */
+    
+     
+}
+body{
+    background-color: #dee2e6;
+}
+.tab_heading{
+    width: 100%;
+    /* height: 20%; */
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    /* color: #212529; */
+    background-color: #6c757d;
+    color: black;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+.register-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #212529;
+    color: white;
+    border: 2px solid #212529;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.7s ease;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
+    width: 80%;
+
+  }
+  .register-button:hover {
+    background-color: #e9ecef;
+    color: #212529;
+  }
+.card{
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0px 4px 16px rgba(0,0,0,0.3);
+    margin : 2% 1% 1% 1%;
+    border-radius: 5%;
+    /* border-color: black; */
+    padding: 2%;
+    background-color: white;
+    width: 25rem;
+}
+.card:hover{
+    box-shadow: 0px 4px 16px black;
+}
+.card-img{
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 70%;
+    width: 98%;
+    border-radius: 3%;
+}
+.ad{
+    background-color: #dee2e6;
+    justify-content:space-evenly ;
+    flex-wrap: wrap;
+}
+#more_event{
+    background-color: #dee2e6;
+    justify-content:space-evenly ;
+    /* flex-wrap: wrap; */
+    font-size: 25px;
+    padding: 3%;
+}
+#more_event a{
+    margin-left: 50%; 
+    color: black; 
+    text-decoration: none; 
+}
+
+.scroll-box{
+    width: 100%;
+    height: 100%;
+    
+    overflow: hidden;
+}
+
+/* Lost n Found  */
+
+.lostFound{
+    display: flex;
+    justify-content: center;
+    background-color: #dee2e6;
+    color: black;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.lostFound #disMsg{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 5% 5% 2% 5%;
+    /* margin: 5%; */
+}
+.lostFound .report{
+    margin-bottom: 2%;
+}
+ #report-btn {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 16px;
+    background-color: #212529;
+    color: white;
+    border: 2px solid #212529;
+    border-radius: 50%;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.7s ease;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    /* margin-bottom: 10px; */
+    
+}
+
+/* About Us  */
+.about{
+    background-color: #dee2e6;
+    color: black;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 5%;
+}
+
+/* Contact us  */
+.contact{
+    background-color: #212529;
+    color: white;
+    /* display: flex; */
+}
+.contact .contact_head{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 2% 2% 0% 2%;
+}
+.contact .info {
+    text-align: center;
+    padding: 0% 2% 2% 2% ;
+    font-size: 25px;
+}
+.contact .icons i{
+    font-size: 30px;
+    margin: 1.75%;
+}
+.contact .icons i:hover{
+   color: #dee2e6;
+   font-weight: 500;
+}
+.contact .icons {
+margin-left: 90%;
+}
+.copyright{
+    text-align: center;
+    font-size: 15px;
+}
+/* navbar style  */
+
+.navbar{
+    width: 100%;
+    background-color: #ced4da;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .logo img{
+    width: 110px;
+    margin-left: 20px;
+}
+.navbar .menu ul{
+    text-align: right;
+    flex:1;
+}
+.navbar .menu ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 10px 14px;
+    margin-left: 23px;
+    
+}
+.navbar .menu ul li a{
+    text-decoration: none;
+    color: #343A40;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: 0.4s;
+}
+.navbar .menu ul li a:hover{
+    font-weight: 600;
+    color :#212529;
+    transition: 0.3s;
+}
+.navbar .logo img:hover{
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+.pics{
+    width: 100%;
+}
+.carousel-inner{
+    position: relative;
+    /* left: 2.5vw; */
+    /* top: 3vh; */
+}
+     
+
+/* .menu-dropdown{
+    display: block;
+    position: absolute;
+}
+.menu-dropdown ul li{
+    display: block;
+    color:#343A40;
+    background-color: black;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 10px 14px;
+    margin-left: 23px;
+}
+.menu-dropdown ul li a{
+    text-decoration: none;
+    color: #343A40;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: 0.4s;
+} */
+
+
+
+
+
